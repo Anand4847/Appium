@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-20T21:42:19 IST" name="Suite" finished-at="2024-12-20T21:45:41 IST" duration-ms="202267">
+  <suite started-at="2024-12-20T23:13:16 IST" name="Suite" finished-at="2024-12-20T23:14:47 IST" duration-ms="90993">
     <groups>
       <group name="Smoke">
-        <method signature="FirstTest.Secondtesting(java.util.HashMap)[pri:0, instance:AllTest.FirstTest@403f0a22]" name="Secondtesting" class="AllTest.FirstTest"/>
+        <method signature="FirstTest.Secondtesting(java.util.HashMap)[pri:0, instance:AllTest.FirstTest@503ecb24]" name="Secondtesting" class="AllTest.FirstTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-12-20T21:42:19 IST" name="Test" finished-at="2024-12-20T21:45:41 IST" duration-ms="202267">
+    <test started-at="2024-12-20T23:13:16 IST" name="Test" finished-at="2024-12-20T23:14:47 IST" duration-ms="90993">
       <class name="AllTest.FirstTest">
-        <test-method is-config="true" signature="config()[pri:0, instance:AllTest.FirstTest@403f0a22]" started-at="2024-12-20T21:42:19 IST" name="config" finished-at="2024-12-20T21:42:19 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="config()[pri:0, instance:AllTest.FirstTest@503ecb24]" started-at="2024-12-20T23:13:16 IST" name="config" finished-at="2024-12-20T23:13:16 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AllTest.FirstTest@403f0a22]" started-at="2024-12-20T21:42:21 IST" name="ConfigureAppium" finished-at="2024-12-20T21:44:34 IST" duration-ms="133110" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AllTest.FirstTest@503ecb24]" started-at="2024-12-20T23:13:16 IST" name="ConfigureAppium" finished-at="2024-12-20T23:13:38 IST" duration-ms="21747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="Secondtesting(java.util.HashMap)[pri:0, instance:AllTest.FirstTest@403f0a22]" started-at="2024-12-20T21:44:34 IST" name="Secondtesting" data-provider="getData" finished-at="2024-12-20T21:45:06 IST" duration-ms="31993" status="PASS">
+        <test-method signature="Secondtesting(java.util.HashMap)[pri:0, instance:AllTest.FirstTest@503ecb24]" started-at="2024-12-20T23:13:38 IST" name="Secondtesting" data-provider="getData" finished-at="2024-12-20T23:14:07 IST" duration-ms="28893" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Secondtesting -->
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AllTest.FirstTest@403f0a22]" started-at="2024-12-20T21:45:06 IST" name="ConfigureAppium" finished-at="2024-12-20T21:45:20 IST" duration-ms="13334" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AllTest.FirstTest@503ecb24]" started-at="2024-12-20T23:14:07 IST" name="ConfigureAppium" finished-at="2024-12-20T23:14:23 IST" duration-ms="16281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="firsttesting(java.util.HashMap)[pri:0, instance:AllTest.FirstTest@403f0a22]" started-at="2024-12-20T21:45:20 IST" name="firsttesting" data-provider="getData" finished-at="2024-12-20T21:45:39 IST" duration-ms="19699" status="FAIL">
+        <test-method signature="firsttesting(java.util.HashMap)[pri:0, instance:AllTest.FirstTest@503ecb24]" started-at="2024-12-20T23:14:23 IST" name="firsttesting" data-provider="getData" finished-at="2024-12-20T23:14:43 IST" duration-ms="19785" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firsttesting -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTest.FirstTest@403f0a22]" started-at="2024-12-20T21:45:41 IST" name="teardown" finished-at="2024-12-20T21:45:41 IST" duration-ms="765" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AllTest.FirstTest@503ecb24]" started-at="2024-12-20T23:14:46 IST" name="teardown" finished-at="2024-12-20T23:14:47 IST" duration-ms="1028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
